@@ -1,0 +1,1015 @@
+/* Mrunal */
+/* Added styles for the create account, login , and forgot password pages*/
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.athalm_h1_reset_pwd {
+  text-align: center;
+}
+
+#sign_up,
+#add_assignment,
+#sign_in {
+  /* max-width: 400px; */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2em 2em 1em 2em;
+  /* border-radius: 5px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+  margin-top: 4em;
+}
+
+#button {
+  padding-top: 2em;
+}
+
+#sign_up,
+#sign_in {
+  width: 100vh;
+  border: none;
+  margin: 0 auto;
+  flex: 1;
+  height: 100vh;
+  align-items: stretch;
+  margin-left: 10vh;
+  border-radius: none;
+}
+
+#add_assignment h2 {
+  padding: 1em;
+  padding-left: 3em;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+#authorize_button {
+  background-color: red;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 64%;
+}
+
+#add_assignment input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 25em;
+}
+
+.create_account {
+  padding: 5vh;
+  font-size: 2em;
+}
+
+.log_in {
+  padding: 5vh;
+  font-size: 2em;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.create_account_page,
+.holohf_body {
+  display: flex;
+  flex-direction: row;
+  max-height: 100%;
+  align-items: center;
+  background-image: url("../images/stars.background.jpeg");
+}
+
+.create_account_page h2,
+.holohf_body h2 {
+  padding-left: 2em;
+  color: #000;
+}
+
+.create_account_page img {
+  height: 80px;
+}
+
+.create_account_page #nav1,
+.holohf_body #nav1 {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  margin-right: 1em;
+  justify-content: center;
+  height: 8em;
+}
+
+.create_account_page #nav1 img,
+.holohf_body #nav1 img {
+  width: 200%;
+  height: 100%;
+}
+
+.create_account_page #nav1 h1,
+.holohf_body #nav1 h1 {
+  text-align: left;
+  margin-top: 5vh;
+  font-size: 3.5em;
+}
+
+.formData {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4em;
+}
+
+input[type="reset"] {
+  background-color: #ccc;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 35%;
+}
+
+input[type="reset"]:hover {
+  background-color: #999;
+}
+
+.already_acc {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 65%;
+  align-items: center;
+}
+
+.already_acc button {
+  background-color: #4bc58c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 41%;
+}
+
+.already_acc h2 {
+  padding-left: 3em;
+}
+
+#sign_in,
+#athalm_forgot_password,
+#athalm_reset_email {
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2em 2em 1em 2em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 35em;
+}
+
+#athalm_forgot_password,
+#athalm_reset_email {
+  margin-top: 30px;
+  padding: 3em;
+}
+
+#forgot_pwd {
+  text-align: center;
+}
+
+.athalm_body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+#athalm_header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#athalm_header {
+  background-color: #007bff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#athalm_logo {
+  max-width: 8em;
+  width: 75px;
+  border-radius: 3em;
+}
+
+.athalm_h1 {
+  color: #fff;
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.athalm_p {
+  font-family: brandon-grotesque, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 45px !important;
+  color: #fff;
+  font-size: 2em;
+  margin-top: 2em;
+  /* text-shadow: 1px 1px 10px white; */
+}
+
+.athalm_button {
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  display: inline-block;
+  background-color: rgb(178, 64, 115);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1em;
+  text-decoration: none;
+  margin-top: 1em;
+  /* border-radius: 5px; */
+  transition: background-color 0.5s;
+}
+
+.athalm_button:hover {
+  background-color: #fcbc18;
+  color: #000000;
+}
+
+#athalm_main {
+  margin-top: 15em;
+  padding: 40px;
+  margin-bottom: 2em;
+}
+
+#athalm_features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.athalm_feature {
+  text-align: center;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.athalm_feature img {
+  max-width: 100px;
+}
+
+.athalm_feature h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.athalm_feature p {
+  font-size: 1.1em;
+  /* color: #000; */
+  color: #0056b3;
+}
+
+#athalm_links-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#athalm_user-actions a.button {
+  background-color: #007bff;
+  margin: 0 10px;
+}
+
+#athalm_user-actions a.button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.athalm_resetpwd_content,
+.athalm_resetemail_content {
+  display: block;
+  position: absolute;
+  width: 910px;
+  left: 300px;
+  right: 300px;
+  top: 100px;
+  min-height: 100vh;
+  transition: 0.5s;
+}
+
+/* =================================================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chenw21container {
+  position: relative;
+  width: 100%;
+}
+
+.chenw21body {
+  background-color: #fff;
+}
+
+/* =============== Navigation Bar ================ */
+.chenw21navigation {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  background: black;
+  border-left: 10px solid black;
+  transition: 0.5s;
+  overflow: hidden;
+  border-top-right-radius: 2em;
+}
+
+.chenw21navigation.active {
+  width: 80px;
+}
+
+.chenw21navigation ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.chenw21navigation ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.chenw21navigation ul li:hover,
+.chenw21navigation ul li.hovered {
+  background-color: #fff;
+}
+
+.chenw21navigation ul li:nth-child(1) {
+  margin-bottom: 40px;
+  pointer-events: none;
+}
+
+.chenw21navigation ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+.chenw21navigation ul li:hover a,
+.chenw21navigation ul li.hovered a {
+  color: black;
+}
+
+.chenw21navigation ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 75px;
+  text-align: center;
+}
+
+.chenw21navigation ul li a .icon ion-icon {
+  font-size: 1.75rem;
+}
+
+.chenw21navigation ul li a .title {
+  font-family: "DM Sans", sans-serif;
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  height: 60px;
+  line-height: 60px;
+  text-align: start;
+  white-space: nowrap;
+}
+
+/* --------- curve outside ---------- */
+.chenw21navigation ul li:hover a::before,
+.chenw21navigation ul li.hovered a::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -50px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 35px 35px 0 10px #fff;
+  pointer-events: none;
+}
+
+.chenw21navigation ul li:hover a::after,
+.chenw21navigation ul li.hovered a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 35px -35px 0 10px #fff;
+  pointer-events: none;
+}
+
+.chenw21logo img {
+  border-radius: 2em;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.chenw21logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  padding: 30px 0 30px 0;
+  color: white;
+}
+
+.chenw21logo h1 {
+  font-family: "DM Sans", sans-serif;
+  padding-right: 1em;
+}
+
+.chenw21setting .chenw21navigation h1 {
+  padding-top: -2em;
+}
+
+.chenw21main {
+  position: absolute;
+  width: calc(100% - 300px);
+  left: 300px;
+  min-height: 100vh;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.chenw21main.active {
+  width: calc(100% - 80px);
+  left: 80px;
+}
+
+.chenw21searchbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.chenw21search {
+  position: relative;
+  width: 400px;
+  margin: 0 10px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.chenw21search input {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  padding: 5px 20px;
+  padding-left: 35px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid #000000;
+}
+
+.chenw21search ion-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2rem;
+}
+
+.chenw21cardBox {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.chenw21cardBox .chenw21card {
+  position: relative;
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.35);
+}
+
+.chenw21cardBox .chenw21card .chenw21numbers {
+  position: relative;
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #000000;
+}
+
+.chenw21cardBox .chenw21card .chenw21cardName {
+  color: #000000;
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+.chenw21cardBox .chenw21card .chenw21iconBox {
+  font-size: 3.5rem;
+  color: #000000;
+}
+
+.chenw21cardBox .chenw21card:hover {
+  background: black;
+}
+
+.chenw21cardBox .chenw21card:hover .chenw21numbers,
+.chenw21cardBox .chenw21card:hover .chenw21cardName,
+.chenw21cardBox .chenw21card:hover .chenw21iconBox {
+  color: white;
+}
+
+.chenw21details {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 30px;
+}
+
+.chenw21details .chenw21AllTasks {
+  position: relative;
+  display: grid;
+  min-height: 350px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+}
+
+.chenw21details .chenw21Taskheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.chenw21Taskheader h2 {
+  font-weight: 600;
+  color: #000000;
+}
+
+.chenw21Taskheader .chenw21btn,
+.chenw21tasksadd .chenw21addnew {
+  position: relative;
+  padding: 5px 10px;
+  background: #000000;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.chenw21details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.chenw21details table thead td {
+  font-weight: 600;
+}
+
+.chenw21details .chenw21AllTasks table tr {
+  color: #000000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chenw21details .chenw21AllTasks table tr:last-child {
+  border-bottom: none;
+}
+
+.chenw21details .chenw21AllTasks table tbody tr:hover {
+  background: #000000;
+  color: #fff;
+}
+
+.chenw21details .chenw21AllTasks table tr td {
+  padding: 30px;
+}
+
+.chenw21details .chenw21AllTasks table tr td a {
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+  border-radius: 0.5em;
+  padding: 0.5em 1.25em 0.5em 1.25em;
+}
+
+.chenw21details .chenw21AllTasks table tr td:last-child,
+.chenw21details .chenw21AllTasks table tr td:nth-child(2) {
+  text-align: end;
+}
+
+.chenw21details .chenw21AllTasks table tr td:nth-child(3) {
+  text-align: center;
+}
+
+.chenw21status.Finished {
+  padding: 2px 4px;
+  background: #8de02c;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.chenw21status.Ongoing {
+  padding: 2px 4px;
+  background: #e9b10a;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.chenw21status.Overdue {
+  padding: 2px 4px;
+  background: #f00;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.chenw21status.ToDo {
+  padding: 2px 4px;
+  background: #1795ce;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.chenw21tasksadd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.chenw21tasksadd .chenw21addnew {
+  margin-left: 2em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.chenw21setting {
+  background-color: #fff;
+}
+
+.chenw21setting h1 {
+  /* margin-top: 2em; */
+}
+
+#pw-warning {
+  padding-bottom: 15px;
+  color: red;
+}
+
+#darkmodetext h2 {
+  text-align: left;
+}
+
+#settingsdescription {
+  color: #5d5d5d;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 7.7em;
+  height: 3.8em;
+  padding-left: 3em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  left: 10px;
+  bottom: 10px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked+.slider {
+  background-color: black;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #000000;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(4em);
+  -ms-transform: translateX(4em);
+  transform: translateX(4em);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.appearance {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#darkmodebutton {
+  padding-right: 3em;
+}
+
+.toggle {
+  height: 80px;
+  width: 200px;
+  border-radius: 9999px;
+  background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80);
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 6px 6px 10px #0000003d;
+}
+
+#checkbox:checked+.toggle {
+  background-image: url(https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+}
+
+#AccountSettings {
+  margin-top: 2em;
+  text-align: left;
+}
+
+.ChangePass h3,
+.DeleteAcc h3,
+.ChangeEmail h3 {
+  text-align: left;
+  /* margin-top: 2em; */
+  font-size: 1.5em;
+  color: red;
+  border-top: #000000;
+}
+
+.ChangePass hr,
+.DeleteAcc hr,
+.ChangeEmail hr {
+  margin: 2em 0 2em 0;
+  width: 98%;
+}
+
+#PASS,
+#EMAIL,
+#ACCOUNT {
+  padding: 2em;
+  text-decoration: none;
+}
+
+.homepagenav {
+  background-color: black;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  align-items: center;
+}
+
+#nav1 {
+  padding-left: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#nav1 h1 {
+  font-family: "DM Sans", sans-serif;
+  padding-left: 1em;
+  font-size: 2em;
+}
+
+#nav2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 3.5em;
+}
+
+#nav2 a {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 100;
+  color: white;
+  padding: 3em;
+  margin-top: -2em;
+  margin-bottom: -2em;
+  text-decoration: none;
+  font-size: 1.3em;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, #ffd82e, #ffd82e 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.7s ease;
+}
+
+#nav2 a:hover {
+  background-position: 0 100%;
+}
+
+#homepagegif img {
+  width: 100%;
+  filter: brightness(45%);
+}
+
+#JoinUs {
+  z-index: 1;
+  position: relative;
+  margin-top: -30em;
+  margin-left: 10em;
+  justify-content: center;
+  text-shadow: #2b2b2b;
+}
+
+.planet_description {
+  /* font-family: "Noto Serif JP", serif; */
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  padding-top: 1em;
+  font-size: 1.2em;
+  color: white;
+  text-align: left;
+  width: 50%;
+}
+
+#planettitle {
+  color: white;
+  text-decoration: none;
+}
+
+.athalm_feature span ion-icon {
+  font-size: 7em;
+}
+
+#icon1 {
+  color: #6d98ba;
+}
+
+#icon2 {
+  color: #d3b99f;
+}
+
+#icon3 {
+  color: #c17767;
+}
+
+.settingstitle h1 {
+  margin-top: 2em;
+}
+
+footer {
+  background-color: rgb(74, 74, 74);
+}
+
+footer img {
+  max-width: 100px;
+}
+
+.footLogo {
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footLogo h1 {
+  font-family: "DM Sans", sans-serif;
+  padding-left: 1em;
+  font-size: 2em;
+}
+
+.footLogoD {
+  text-align: left;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ITWSTEAM13 {
+  font-family: "DM Sans", sans-serif;
+  padding-left: 1.75em;
+  color: white;
+}
+
+.foottext #planettitle {
+  margin-top: -0.2em;
+}
+
+.foottext a {
+  text-decoration: none;
+}

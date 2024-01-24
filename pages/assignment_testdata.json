@@ -1,0 +1,68 @@
+[
+  {
+    "homework": "Homework 1",
+    "due_date": "10/12/23",
+    "course_name": "Foundations of Computer Science",
+    "status": "Finished"
+  },
+  {
+    "homework": "Problem Set 2",
+    "due_date": "11/01/24",
+    "course_name": "Web Systems Development",
+    "status": "In Progress"
+  },
+  {
+    "homework": "Project 3",
+    "due_date": "12/05/23",
+    "course_name": "Computer Organization",
+    "status": "To Do"
+  },
+  {
+    "homework": "Lab Assignment 1",
+    "due_date": "09/20/23",
+    "course_name": "Multivariable Calculus",
+    "status": "Finished"
+  },
+  {
+    "homework": "Programming Assignment 2",
+    "due_date": "11/30/23",
+    "course_name": "Data Structures",
+    "status": "In Progress"
+  },
+  {
+    "homework": "Quiz 1",
+    "due_date": "10/05/23",
+    "course_name": "Foundations of Computer Science",
+    "status": "Overdue"
+  },
+  {
+    "homework": "Problem Set 1",
+    "due_date": "09/25/23",
+    "course_name": "Web Systems Development",
+    "status": "Finished"
+  },
+  {
+    "homework": "Midterm Exam",
+    "due_date": "11/15/23",
+    "course_name": "Computer Organization",
+    "status": "To Do"
+  },
+  {
+    "homework": "Research Paper",
+    "due_date": "12/10/23",
+    "course_name": "Multivariable Calculus",
+    "status": "In Progress"
+  },
+  {
+    "homework": "Programming Project",
+    "due_date": "10/30/23",
+    "course_name": "Data Structures",
+    "status": "To Do"
+  },
+  {
+    "homework": "Final Exam",
+    "due_date": "12/20/23",
+    "course_name": "Foundations of Computer Science",
+    "status": "To Do"
+  }
+]

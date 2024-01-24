@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html onload="focusFirstAdd()">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Add Assignment</title>
+    <link rel="stylesheet" href="../resources/styles/style.css" />
+    <link rel="stylesheet" ref="https://fonts.googleapis.com/css?family=Montserrat" />
+    <script src="../resources/scripts/add.js"></script>
+</head>
+
+<body>
+    <form id="add_assignment" onsubmit="return validateAdd(this)">
+        <h2>Add Assignment</h2>
+        <label for="course_name">Name:</label>
+        <input type="text" placeholder="Enter Task Name" id="name" />
+
+        <label for="course_id">Type</label>
+        <input type="text" placeholder="Enter Type" id="class" />
+
+        <label for="assignment_name">Status</label>
+        <select id="type">
+            <option>To Do (No due date)</option>
+            <option>In Progress</option>
+            <option>Finished</option>
+            <option>Overdue</option>
+        </select>
+
+        <label for="due_date">Due Date:</label>
+        <input type="date" id="due_date" />
+
+        <input type="submit" value="Add Assignment" />
+        <input type="reset" value="Cancel" />
+    </form>
+</body>
+
+</html>
